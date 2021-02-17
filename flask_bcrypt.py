@@ -5,6 +5,7 @@
     A Flask extension providing bcrypt hashing and comparison facilities.
 
     :copyright: (c) 2011 by Max Countryman.
+    :copyright: (c) 2021 by Suren Khorenyan.
     :license: BSD, see LICENSE for more details.
 '''
 
@@ -13,9 +14,9 @@ from __future__ import print_function
 
 __version_info__ = ('1', '0', '0')
 __version__ = '.'.join(__version_info__)
-__author__ = 'Max Countryman'
+__author__ = 'Suren Khorenyan'
 __license__ = 'BSD'
-__copyright__ = '(c) 2011 by Max Countryman'
+__copyright__ = '(c) 2011 by Max Countryman, (c) 2021 by Suren Khorenyan'
 __all__ = ['Bcrypt', 'check_password_hash', 'generate_password_hash']
 
 from werkzeug.security import safe_str_cmp

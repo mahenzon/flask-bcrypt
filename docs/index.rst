@@ -15,18 +15,14 @@ optimized for speed, bcrypt is intentionally structured to be slow.
 For sensitive data that must be protected, such as passwords, bcrypt is an
 advisable choice.
 
-.. _Flask-Bcrypt: http://github.com/maxcountryman/flask-bcrypt
+.. _Flask-Bcrypt: http://github.com/mahenzon/flask-bcrypt
 .. _Flask: http://flask.pocoo.org/
 
 Installation
 ------------
 
-Install the extension with one of the following commands:
+Install using pip:
 
-    $ easy_install flask-bcrypt
-
-or alternatively if you have pip installed:
-    
     $ pip install flask-bcrypt
 
 .. note::

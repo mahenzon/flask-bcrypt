@@ -47,8 +47,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Flask-Bcrypt'
-copyright = u'2011, Max Countryman'
+project = 'Flask-Bcrypt'
+copyright = '2021, Suren Khorenyan'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -95,7 +95,7 @@ pygments_style = 'sphinx'
 
 
 # -- Options for HTML output ---------------------------------------------------
-html_theme_options = {'github_fork': 'maxcountryman/flask-bcrypt', 'index_logo': False}
+html_theme_options = {'github_fork': 'mahenzon/flask-bcrypt', 'index_logo': False}
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
@@ -189,8 +189,8 @@ htmlhelp_basename = 'Flask-Bcryptdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Flask-Bcrypt.tex', u'Flask-Bcrypt Documentation',
-   u'Max Countryman', 'manual'),
+  ('index', 'Flask-Bcrypt.tex', 'Flask-Bcrypt Documentation',
+   'Suren Khorenyan', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -222,6 +222,6 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'flask-bcrypt', u'Flask-Bcrypt Documentation',
-     [u'Max Countryman'], 1)
+    ('index', 'flask-bcrypt', 'Flask-Bcrypt Documentation',
+     ['Suren Khorenyan'], 1)
 ]
