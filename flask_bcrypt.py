@@ -1,18 +1,15 @@
-'''
-    flaskext.bcrypt
-    ---------------
+"""
+A Flask extension providing bcrypt hashing and comparison facilities.
 
-    A Flask extension providing bcrypt hashing and comparison facilities.
-
-    :copyright: (c) 2011 by Max Countryman.
-    :copyright: (c) 2021 by Suren Khorenyan.
-    :license: BSD, see LICENSE for more details.
-'''
+:copyright: (c) 2011 by Max Countryman.
+:copyright: (c) 2021 by Suren Khorenyan.
+:license: BSD, see LICENSE for more details.
+"""
 
 from __future__ import absolute_import
 from __future__ import print_function
 
-__version_info__ = ('1', '0', '0')
+__version_info__ = ('1', '0', '1')
 __version__ = '.'.join(__version_info__)
 __author__ = 'Suren Khorenyan'
 __license__ = 'BSD'

@@ -23,7 +23,7 @@ Installation
 
 Install using pip:
 
-    $ pip install flask-bcrypt
+    $ pip install Bcrypt-Flask
 
 .. note::
     You need Python Development Headers to install py-bcrypt package, needed
@@ -62,3 +62,28 @@ ___
 
 .. autofunction:: flask_bcrypt.check_password_hash
 
+
+Configuration
+_____________
+
+(Flask config)
+
+-  ``BCRYPT_LOG_ROUNDS``: default ``12``
+-  ``BCRYPT_HASH_PREFIX``: default ``'2b'``
+-  ``BCRYPT_HANDLE_LONG_PASSWORDS``: default ``False``.
+   By default, the bcrypt algorithm has a maximum password length of 72
+   bytes
+   and ignores any bytes beyond that. A common workaround is to hash the
+   given password using a cryptographic hash (such as ``sha256``), take
+   its
+   hexdigest to prevent NULL byte problems, and hash the result with
+   bcrypt.
+   If the ``BCRYPT_HANDLE_LONG_PASSWORDS`` configuration value is set to
+   ``True``,
+   the workaround described above will be enabled.
+   **Warning: do not enable this option on a project that is already
+   using
+   Flask-Bcrypt, or you will break password checking.**
+   **Warning: if this option is enabled on an existing project,
+   disabling it
+   will break password checking.**
