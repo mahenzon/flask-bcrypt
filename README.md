@@ -69,4 +69,4 @@ will break password checking.**
 
 ## Documentation
 
-TODO: auto-deploy on readthedocs
+https://bcrypt-flask.readthedocs.io/en/latest/
