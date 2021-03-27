@@ -23,7 +23,7 @@ Installation
 
 Install using pip:
 
-    $ pip install Bcrypt-Flask
+    $ pip install FlaskBcrypt
 
 .. note::
     You need Python Development Headers to install py-bcrypt package, needed

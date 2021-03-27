@@ -4,7 +4,7 @@
 
 [Original repo](https://github.com/maxcountryman/flask-bcrypt) gets some updates at GitHub, but new versions are not uploaded to pypi at all. 
 Maintainer [declined](https://github.com/maxcountryman/flask-bcrypt/pull/66) to keep pypi project up to date. 
-So here's this repo: [pypi package](https://pypi.org/project/Bcrypt-Flask/1.0.0/) is automatically updated and is in sync with the [master branch](https://github.com/mahenzon/flask-bcrypt).
+So here's this repo: [pypi package](https://pypi.org/project/FlaskBcrypt/) is automatically updated and is in sync with the [master branch](https://github.com/mahenzon/flask-bcrypt).
 
 ## Description
 
@@ -25,7 +25,7 @@ advisable choice.
 Install using pip:
 
 ```bash
-pip install Bcrypt-Flask
+pip install FlaskBcrypt
 ```
 
 ## Usage
@@ -69,4 +69,4 @@ will break password checking.**
 
 ## Documentation
 
-https://bcrypt-flask.readthedocs.io/en/latest/
+https://flaskbcrypt.readthedocs.io/en/latest/

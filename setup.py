@@ -36,7 +36,7 @@ def get_description():
 
 
 setup(
-    name='Bcrypt-Flask',
+    name='FlaskBcrypt',
     version=__version__,
     url='https://github.com/mahenzon/flask-bcrypt',
     license='BSD',
